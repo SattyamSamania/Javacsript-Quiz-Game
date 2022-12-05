@@ -50,3 +50,27 @@ body{
 
     color: brown;
 }
+
+@media screen and (max-width: 620px){
+    .btn{
+        max-width: 50%;
+        font-size: 10px;
+        
+    }
+    h2{
+        font-size: smaller;
+    }
+    .row{
+        font-size: small;
+    }
+    
+    #box{
+        padding: 5px;
+    }
+}
+
+.btn:hover{
+    background-color: blue;
+
+    color: brown;
+}
